@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  background-image: url(IMAGENS/fundo.jpg);
+}
+
+.container {
+  width: 400px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.8);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.container .title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #333;
+}
+.container .icone_sociais {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+}
+.icone_sociais a {
+  display: block;
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+.icone_sociais a span {
+  margin-left: 5px;
+  font-size: 18px;
+}
+.icone_sociais a:first-child {
+  margin-right: 5px;
+  background: #4267b2;
+}
+.icone_sociais a:first-child:hover {
+  background: #7e7e7e;
+  border: 1px solid #000;
+}
+.icone_sociais a:last-child {
+  margin-left: 5px;
+  background: #1da1f2;
+}
+.icone_sociais a:last-child:hover {
+  background: #7e7e7e;
+  border: 1px solid #000;
+}
+form {
+  margin-top: 25px;
+}
+form .input_box {
+  height: 60px;
+  width: 100%;
+  position: relative;
+  margin-top: 15px;
+}
+.input_box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  padding-left: 48px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+.input_box input:focus {
+  border-color: #19d0dd;
+}
+.input_box .icon {
+  position: absolute;
+  top: 50%;
+  left: 22px;
+  transform: translateY(-50%);
+  color: grey;
+}
+form .seletor_input {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.seletor_input .check_box {
+  display: flex;
+  align-items: center;
+}
+.check_box input {
+  display: flex;
+  align-items: center;
+  height: 15px;
+  accent-color: #19d0dd;
+  width: 15px;
+}
+.check_box label {
+  margin-left: 8px;
+  font-size: 16px;
+  color: #333;
+}
+.seletor_input .esqueceu a {
+  font-size: 16px;
+  color: #19d0dd;
+}
+.button input {
+  margin-top: 20px;
+  padding-left: 0;
+  background: #19d0dd;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.button input:hover {
+  background: #7e7e7e;
+}
+form .login {
+  text-align: center;
+  margin-top: 35px;
+}
+.login a {
+  color: #19d0dd;
+}
+form a {
+  text-decoration: none;
+}
+form a:hover {
+  border-bottom: 1px solid #000;
+}
